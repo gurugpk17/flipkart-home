@@ -5,7 +5,7 @@ body{
 }
 .nav-body {
   padding-top: 1%;
-  /* position: fixed; */
+  position: fixed;
   top: 0; /* Fix the navbar at the top of the viewport */
   z-index: 4;
   background-color: white;
@@ -244,6 +244,7 @@ body{
   background-color: white;
   gap: 32px;
   padding-left:5%;
+  margin-top: 5%;
   
 }
 .categories{
