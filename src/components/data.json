@@ -1,0 +1,99 @@
+
+[
+    {
+        "id": 1,
+        "title": "Grocery",
+        "subcategories": []
+    },
+    {
+        "id": 2,
+        "title": "Mobiles",
+        "subcategories": []
+    },
+    {
+        "id": 3,
+        "title": "Fashion",
+        "subcategories": [
+            {
+                "title": "Men's Wear",
+                "varieties": ["Men's Shirts", "Men's Trousers", "Men's T-Shirts", "Men's Jeans"]
+            },
+            {
+                "title": "Women's Wear",
+                "varieties": ["Women's Sarees", "Women's Kurtas & Kurtis", "Palazzos & Shararas", "Lehengas"]
+            },
+            {
+                "title": "Kid's Wear",
+                "varieties": ["Infants Wear", "Baby Boy", "Baby Girl"]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Electronics",
+        "subcategories": [
+            {
+                "title": "My Account",
+                "varieties": []
+            },
+            {
+                "title": "Super coin Zone",
+                "varieties": []
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Home & Furniture",
+        "subcategories": [
+            {
+                "title": "My Account",
+                "varieties": []
+            },
+            {
+                "title": "Super coin Zone",
+                "varieties": []
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Appliances",
+        "subcategories": []
+    },
+    {
+        "id": 7,
+        "title": "Travel",
+        "subcategories": []
+    },
+    {
+        "id": 8,
+        "title": "Beauty, Toys & More",
+
+        "subcategories": [
+            {
+                "title": "My Account",
+                "varieties": []
+            },
+            {
+                "title": "Super coin Zone",
+                "varieties": []
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Two Wheelers",
+
+        "subcategories": [
+            {
+                "title": "My Account",
+                "varieties": []
+            },
+            {
+                "title": "Super coin Zone",
+                "varieties": []
+            }
+        ]
+    }
+]
