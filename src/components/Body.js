@@ -36,9 +36,15 @@ export default function Body(){
                     </button>
                     <div className="sub-cate2">
                         <h4>More in Men's Wear</h4>
-                        <button><h3>All</h3></button>
-                        <button><h3>Men's Formals</h3></button>
-                        <button><h3>Men's Casuals</h3></button>
+                        <a href="#none" alt="All">
+                            <h3>All</h3>
+                        </a>
+                        <a href="#none" alt="Men's Formals">
+                            <h3>Men's Formals</h3>
+                        </a>
+                        <a href="#none" alt="Men's Casuals">
+                            <h3>Men's Casuals</h3>
+                        </a>
                     </div>
                     <button className="sub-cate">
                         <h3>Women's Wear</h3>
