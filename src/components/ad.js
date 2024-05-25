@@ -1,7 +1,6 @@
 import React from 'react';
-import Product from "./product.js";
+import Product from "./product";
 import Ad_image from "../images/ad-image.webp";
-// import "./Ad.css"; // Import the CSS file for styling
 
 export default function Ad() {
     return (

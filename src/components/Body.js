@@ -1,131 +1,131 @@
-import React from 'react'
-import Cate_1 from "../images/1.webp" 
-import Cate_2 from "../images/2.webp" 
-import Cate_3 from "../images/3.webp" 
-import Cate_4 from "../images/4.webp" 
-import Cate_5 from "../images/5.webp" 
-import Cate_6 from "../images/6.webp" 
-import Cate_7 from "../images/7.webp" 
-import Cate_8 from "../images/8.webp" 
-import Cate_9 from "../images/9.webp" 
+import React from 'react';
+import Cate_1 from "../images/1.webp"; 
+import Cate_2 from "../images/2.webp"; 
+import Cate_3 from "../images/3.webp"; 
+import Cate_4 from "../images/4.webp"; 
+import Cate_5 from "../images/5.webp"; 
+import Cate_6 from "../images/6.webp"; 
+import Cate_7 from "../images/7.webp"; 
+import Cate_8 from "../images/8.webp"; 
+import Cate_9 from "../images/9.webp"; 
 
 export default function Body(){
-    return(
+    return (
         <div className="Body">
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_1} className="category-png" />
-                    <h3>Grocery </h3>
+                    <img src={Cate_1} className="category-png" alt="Grocery" />
+                    <h3>Grocery</h3>
                 </button>
             </div>
             <div className="categories2">
                 <button className="categories">
-                    <img src={Cate_2} className="category-png" />
-                    <h3>Mobiles </h3>
+                    <img src={Cate_2} className="category-png" alt="Mobiles" />
+                    <h3>Mobiles</h3>
                 </button>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_3} className="category-png" />
+                    <img src={Cate_3} className="category-png" alt="Fashion" />
                     <h3>Fashion <i className="fa fa-angle-down"></i></h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate">
-                        <h3>Men's Wear </h3>
+                    <button className="sub-cate">
+                        <h3>Men's Wear</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
+                    </button>
                     <div className="sub-cate2">
-                            <h4>More in Men's Wear</h4>
-                            <a ><h3>All</h3></a>
-                            <a ><h3>Men's Formals</h3></a>
-                            <a ><h3>Men's Casuals</h3></a>
+                        <h4>More in Men's Wear</h4>
+                        <button><h3>All</h3></button>
+                        <button><h3>Men's Formals</h3></button>
+                        <button><h3>Men's Casuals</h3></button>
                     </div>
-                    <a className="sub-cate">
+                    <button className="sub-cate">
                         <h3>Women's Wear</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
-                    <a className="sub-cate">
+                    </button>
+                    <button className="sub-cate">
                         <h3>Kid's Wear</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
+                    </button>
                 </div>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_4} className="category-png" />
+                    <img src={Cate_4} className="category-png" alt="Electronics" />
                     <h3>Electronics <i className="fa fa-angle-down"></i></h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate">
+                    <button className="sub-cate">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
-                    <a className="sub-cate">
+                    </button>
+                    <button className="sub-cate">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
+                    </button>
                 </div>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_5} className="category-png" />
+                    <img src={Cate_5} className="category-png" alt="Home & Furniture" />
                     <h3>Home & Furniture <i className="fa fa-angle-down"></i></h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate">
+                    <button className="sub-cate">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
-                    <a className="sub-cate">
+                    </button>
+                    <button className="sub-cate">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
+                    </button>
                 </div>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_6} className="category-png" />
-                    <h3>Appliances </h3>
+                    <img src={Cate_6} className="category-png" alt="Appliances" />
+                    <h3>Appliances</h3>
                 </button>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_7} className="category-png" />
-                    <h3>Travel </h3>
+                    <img src={Cate_7} className="category-png" alt="Travel" />
+                    <h3>Travel</h3>
                 </button>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_8} className="category-png" />
+                    <img src={Cate_8} className="category-png" alt="Beauty, Toys & More" />
                     <h3>Beauty, Toys & More <i className="fa fa-angle-down"></i></h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate">
+                    <button className="sub-cate">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
-                    <a className="sub-cate">
+                    </button>
+                    <button className="sub-cate">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
+                    </button>
                 </div>
             </div>
             <div className="categories1">
                 <button className="categories">
-                    <img src={Cate_9} className="category-png" />
+                    <img src={Cate_9} className="category-png" alt="Two Wheelers" />
                     <h3>Two Wheelers <i className="fa fa-angle-down"></i></h3>
                 </button>
                 <div className="cate-sub-content">
-                    <a className="sub-cate">
+                    <button className="sub-cate">
                         <h3>My Account</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
-                    <a className="sub-cate">
+                    </button>
+                    <button className="sub-cate">
                         <h3>Super coin Zone</h3>
                         <i className="fa fa-angle-right"></i>
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>
-    )
+    );
 }

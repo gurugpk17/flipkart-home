@@ -6,7 +6,7 @@ import S_image_4 from "../images/s-image4.webp";
 import S_image_5 from "../images/s-image5.webp";
 
 
-const Slideshow = () => {
+export default function Slideshow () {
     const [slideIndex, setSlideIndex] = useState(1);
 
     const slides = [
@@ -48,7 +48,7 @@ const Slideshow = () => {
                     />
                 ))}
                 <div className="slideshow-controls">
-                    <button className="scroll-button left" onClick={() => plusDivs(-1)}>&#10094;</button>
+                    <button className="scroll-button-left" onClick={() => plusDivs(-1)}>&#10094;</button>
                     {slides.map((_, index) => (
                         <span
                             key={index}
@@ -56,11 +56,11 @@ const Slideshow = () => {
                             onClick={() => currentDiv(index + 1)}
                         ></span>
                     ))}
-                    <button className="scroll-button right" onClick={() => plusDivs(1)}>&#10095;</button>
+                    <button className="scroll-button-right" onClick={() => plusDivs(1)}>&#10095;</button>
                 </div>
             </div>
         </div>
     );
 };
 
-export default Slideshow;
+
